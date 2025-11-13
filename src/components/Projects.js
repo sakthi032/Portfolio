@@ -9,7 +9,7 @@ const Projects = forwardRef((props, ref) => (
                 <img src={logoImg} alt="Project 1" className="project-img" />
                 <div className="project-content">
                     <h3 className="project-title">Student Attainment Reporting System</h3>
-                    <p className="project-description">A full-stack web application built using Django, SQLite, and JavaScript to manage and automate student academic data. It allows admins to upload, edit, and track student grades with real-time Excel synchronization and Firebase-based authentication for secure access.</p>
+                    <p className="project-description">A full-stack web application built using Django, SQLite, and JavaScript to manage and automate student academic data. It allows admins to upload, edit, and track student grades with real-time Excel synchronization and secure access control using Django’s built-in authentication system.</p>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/sakthi032/college/" className="project-link">
                         <i className="fab fa-github"></i> View on GitHub
                     </a>
