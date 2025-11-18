@@ -63,15 +63,15 @@ const Skills = forwardRef((props, ref) => (
                         <div className="skill-progress" style={{ '--skill-level': '75%' }}></div>
                     </div>
                 </div>
-                <div className="skill-item">
-                    <div className="skill-name">
-                        <span>Spring Boot</span>
-                        <span>40%</span>
-                    </div>
-                    <div className="skill-bar">
-                        <div className="skill-progress" style={{ '--skill-level': '40%' }}></div>
-                    </div>
-                </div>
+                // <div className="skill-item">
+                //     <div className="skill-name">
+                //         <span>Spring Boot</span>
+                //         <span>40%</span>
+                //     </div>
+                //     <div className="skill-bar">
+                //         <div className="skill-progress" style={{ '--skill-level': '40%' }}></div>
+                //     </div>
+                // </div>
             </div>
             <div className="skill-category">
                 <h3>Database</h3>
